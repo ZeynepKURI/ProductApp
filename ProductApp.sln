@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCEA10D6-D172-49EE-9B90-37893967C451}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{824E9DAD-A465-4F92-AB70-533F8722F09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApp.Domain", "src\core\Product.Domain\ProductApp.Domain.csproj", "{CA3ECF13-A0AF-4533-898D-DCDA103F6FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApp.Application", "src\core\ProductApp.Application\ProductApp.Application.csproj", "{8DCAAB30-6419-48CD-87AB-374B34A8011E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA3ECF13-A0AF-4533-898D-DCDA103F6FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3ECF13-A0AF-4533-898D-DCDA103F6FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3ECF13-A0AF-4533-898D-DCDA103F6FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3ECF13-A0AF-4533-898D-DCDA103F6FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCAAB30-6419-48CD-87AB-374B34A8011E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCAAB30-6419-48CD-87AB-374B34A8011E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCAAB30-6419-48CD-87AB-374B34A8011E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCAAB30-6419-48CD-87AB-374B34A8011E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CCE138F-B961-47A4-BF54-44C89C5BC024}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{824E9DAD-A465-4F92-AB70-533F8722F09C} = {BCEA10D6-D172-49EE-9B90-37893967C451}
+		{CA3ECF13-A0AF-4533-898D-DCDA103F6FD7} = {824E9DAD-A465-4F92-AB70-533F8722F09C}
+		{8DCAAB30-6419-48CD-87AB-374B34A8011E} = {824E9DAD-A465-4F92-AB70-533F8722F09C}
+	EndGlobalSection
+EndGlobal
