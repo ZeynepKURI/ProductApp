@@ -3,9 +3,9 @@ namespace Product.Domain.Common
 {
 	public class BaseEntity
 	{
-		public BaseEntity()
-		{
-		}
+		public Guid Int { get; set; }
+
+		public DateTime UpdateDate { get; set; }
 	}
 }
 
