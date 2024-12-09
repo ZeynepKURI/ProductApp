@@ -1,28 +1,32 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.src.core.ProductApp.Domain FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.src.core.ProductApp.Application FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/core/Product.Domain/Common/BaseEntity.cs">
+  <MonoDevelop.Ide.ItemProperties.src.core.ProductApp.Application FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.core.ProductApp.Domain FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/core/ProductApp.Application/Interfaces/Repository/IProductRepository.cs">
     <Files>
-      <File FileName="src/core/Product.Domain/Common/BaseEntity.cs" Line="4" Column="15" />
+      <File FileName="src/core/Product.Domain/Entities/Product.cs" />
+      <File FileName="src/core/ProductApp.Application/Exceptions/ValidationException.cs" />
+      <File FileName="src/core/ProductApp.Application/Dto/ProducrViewDto.cs" />
+      <File FileName="src/core/ProductApp.Application/Wrappers/BaseResponse.cs" />
+      <File FileName="src/core/ProductApp.Application/Wrappers/PagedResponse.cs" />
+      <File FileName="src/core/ProductApp.Application/Wrappers/ServicerResponse.cs" />
+      <File FileName="src/core/ProductApp.Application/Interfaces/Repository/IProductRepository.cs" Line="8" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ProductApp" selected="True">
+          <Node name="ProductApp" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="core" expanded="True">
-                <Node name="ProductApp.Application" expanded="True" />
-              </Node>
+              <Node name="core" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

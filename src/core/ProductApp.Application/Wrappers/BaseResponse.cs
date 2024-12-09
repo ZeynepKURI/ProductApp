@@ -3,9 +3,11 @@ namespace ProductApp.Application.Wrappers
 {
 	public class BaseResponse
 	{
-		public BaseResponse()
-		{
-		}
+		public Guid Id { get; set; }
+
+		public bool Secces { get; set; }
+
+		public String Message { get; set; }
 	}
 }
 

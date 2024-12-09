@@ -3,9 +3,9 @@ namespace ProductApp.Application.Dto
 {
 	public class ProducrViewDto
 	{
-		public ProducrViewDto()
-		{
-		}
+		public Guid Int { get; set; }
+
+		public string Name { get; set; }
 	}
 }
 

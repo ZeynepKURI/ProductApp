@@ -1,10 +1,21 @@
 ﻿using System;
 namespace ProductApp.Application.Exceptions
 {
-	public class ValidationException
+	public class ValidationException : Exception
 	{
-		public ValidationException()
+		public ValidationException(): this("Validation error occured")
 		{
+
+		}
+
+		public ValidationException(String Message): base(Message)
+		{
+
+		}
+
+		public ValidationException(Exception ex): this (ex.Message)
+		{
+
 		}
 	}
 }

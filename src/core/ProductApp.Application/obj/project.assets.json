@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "ProductApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ProductApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductApp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ProductApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Product.Domain/ProductApp.Domain.csproj",
+      "msbuildProject": "../Product.Domain/ProductApp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "ProductApp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/zeynepkuri/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/ProductApp.Domain.csproj": {
+              "projectPath": "/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/ProductApp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

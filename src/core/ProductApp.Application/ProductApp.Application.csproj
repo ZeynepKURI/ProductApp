@@ -10,10 +10,17 @@
     <None Remove="Dto\" />
     <None Remove="Exceptions\" />
     <None Remove="Wrappers\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Interfaces\Repository\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dto\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Wrappers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Domain\ProductApp.Domain.csproj" />
   </ItemGroup>
 </Project>
