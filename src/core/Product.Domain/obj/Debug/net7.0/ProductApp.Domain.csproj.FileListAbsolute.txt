@@ -1,0 +1,12 @@
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/bin/Debug/net7.0/ProductApp.Domain.deps.json
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/bin/Debug/net7.0/ProductApp.Domain.dll
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/bin/Debug/net7.0/ProductApp.Domain.pdb
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ProductApp.Domain.csproj.AssemblyReference.cache
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ProductApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ProductApp.Domain.AssemblyInfoInputs.cache
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ProductApp.Domain.AssemblyInfo.cs
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ProductApp.Domain.csproj.CoreCompileInputs.cache
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ProductApp.Domain.dll
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/refint/ProductApp.Domain.dll
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ProductApp.Domain.pdb
+/Users/zeynepkuri/Projects/ProductApp/src/core/Product.Domain/obj/Debug/net7.0/ref/ProductApp.Domain.dll

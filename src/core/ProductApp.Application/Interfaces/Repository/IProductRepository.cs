@@ -6,6 +6,8 @@ namespace ProductApp.Application.Interfaces.Repository
 	{
 
         Task<List<Product>> GetAllProduct();
+
+		Task<Product> GetProductById(Guid Id);
 	}
 }
 
