@@ -12,6 +12,7 @@
     <None Remove="Wrappers\" />
     <None Remove="Interfaces\" />
     <None Remove="Interfaces\Repository\" />
+    <None Remove="Parameters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dto\" />
@@ -19,6 +20,7 @@
     <Folder Include="Wrappers\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Interfaces\Repository\" />
+    <Folder Include="Parameters\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Product.Domain\ProductApp.Domain.csproj" />
