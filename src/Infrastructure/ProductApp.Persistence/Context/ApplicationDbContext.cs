@@ -1,11 +1,14 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
+
 namespace ProductApp.Persistence.Context
 {
-	public class ApplicationDbContext
+	public class ApplicationDbContext : DbContext
 	{
-		public ApplicationDbContext()
-		{
-		}
+		public DbSet<Product> products { get; set; }
+		
+
+
 	}
 }
 
