@@ -2,12 +2,9 @@
 using Product.Domain.Entities;
 namespace ProductApp.Application.Interfaces.Repository
 {
-	public interface IProductRepository
+	public interface IProductRepository : IGenericRepositoryAsync<Product.Domain.Entities.Product>
 	{
 
-        Task<List<Product>> GetAllProduct();
-
-		Task<Product> GetProductById(Guid Id);
-	}
+    }
 }
 
